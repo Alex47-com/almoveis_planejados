@@ -134,6 +134,16 @@ main img {
     position: relative;
 }
 
+video {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: relative;
+    transform: translate(+20%);
+}
+
 div.video > iframe {
     position: absolute;
     top: 5%;
